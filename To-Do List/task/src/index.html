@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>To-Do List</h1>
+<div class="container">
+    <input id="input-task">
+    <button type="submit" id="add-task-button">Add Task</button>
+    <ul id="task-list">
+        <li><span class="task"><input type="checkbox" onclick="myFunction(this);">Shopping</span><button class="delete-btn" onclick="return this.parentNode.remove();"></button> </li>
+        <li><span class="task"><input type="checkbox" onclick="myFunction(this);">Long Drive</span><button class="delete-btn" onclick="return this.parentNode.remove();"></button> </li>
+        <li><span class="task"><input type="checkbox" onclick="myFunction(this);">Sleeping</span><button class="delete-btn" onclick="return this.parentNode.remove();"></button> </li>
+    </ul>
+</div>
+<script src="index.js"></script>
+</body>
+</html>

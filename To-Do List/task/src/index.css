@@ -1,0 +1,33 @@
+h1{
+text-align: center;
+}
+#input-task{
+    border: none;
+    border-bottom: 2px solid grey;
+    width: 500px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    /*background-color: lightsalmon;*/
+    width: 600px;
+    height: 500px;
+
+}
+#task-list{
+    list-style: none;
+    font-size: 20px;
+    line-height: 2em;
+}
+
+.delete-btn{
+    float: right;
+    margin-right: 20px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: red;
+}
+input[type=checkbox]{
+    margin-right: 20px;
+}
